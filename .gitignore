@@ -1,0 +1,5 @@
+node_modules
+.next
+
+# No Cheating!
+quiz-solutions.test.js
