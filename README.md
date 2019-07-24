@@ -81,3 +81,18 @@ Note: Extremely contrived and bad
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/prototype
 - https://sdras.github.io/array-explorer/
 - https://syntax.fm/show/043/20-javascript-array-and-object-methods-to-make-you-a-better-developer
+
+## There's a Quiz!
+
+Clone this repo, then get started with these commands:
+
+```sh
+# Install dependencies
+$ yarn
+
+# Run the quiz - your goal is to make the tests pass! The tests will re-run as
+# you update the code.
+$ yarn test --watch
+```
+
+Open up `quiz.test.js` and update each test so that it passes. Good luck!
