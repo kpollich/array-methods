@@ -59,16 +59,17 @@ Let's look at code!
 Use [this](https://sdras.github.io/array-explorer/)
 
 tl;dr
-|Method|When to Use|
-|------|-----------|
-|forEach|Run some code for every element, don't care about return value|
-|map|Run some code for every element, and track every return value separately|
-|filter|Only want part of the array that satisies a condition|
-|reduce|Run some code for every element, and "boil it down" to a single value at the end|
-|some|Is there at least one element that satisfies this condition?|
-|every|Do all elements satify this condition?|
-|find|Give me the first element that satisfies this condition|
-|inclues|Does this array contain this exact value?|
+
+| Method  | When to Use                                                                      |
+| ------- | -------------------------------------------------------------------------------- |
+| forEach | Run some code for every element, don't care about return value                   |
+| map     | Run some code for every element, and track every return value separately         |
+| filter  | Only want part of the array that satisies a condition                            |
+| reduce  | Run some code for every element, and "boil it down" to a single value at the end |
+| some    | Is there at least one element that satisfies this condition?                     |
+| every   | Do all elements satify this condition?                                           |
+| find    | Give me the first element that satisfies this condition                          |
+| inclues | Does this array contain this exact value?                                        |
 
 ## Quick React Demo
 
