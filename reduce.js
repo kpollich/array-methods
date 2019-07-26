@@ -43,7 +43,7 @@ function myReduce(array, callback, defaultValue) {
   let acc = defaultValue;
 
   for (let i = 0; i < array.length; i++) {
-    acc = callback(acc, array[i]);
+    acc = callback(acc, array[i], i);
   }
 
   return acc;

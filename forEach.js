@@ -33,6 +33,10 @@ let myFavoriteColor = "blue";
 console.log(myFavoriteColor);
 
 // Let's implement our own forEach method!
-function myForEach(array, callback) {}
+function myForEach(array, callback) {
+  for (let i = 0; i < array.length; i++) {
+    callback(array[i], i);
+  }
+}
 
 myForEach(numbers, element => console.log(element * 2));

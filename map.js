@@ -32,7 +32,15 @@ const sanitizedData = data.map(record => {
 console.log(sanitizedData);
 
 // Let's write our own `.map`!
-function myMap(array, callback) {}
+function myMap(array, callback) {
+  const results = [];
+
+  for (let i = 0; i < array.length; i++) {
+    results.push(callback(array[i], i));
+  }
+
+  return results;
+}
 
 const numbersAgain = [4, 5, 6, 7];
 const squaredNumbers = myMap(numbersAgain, number => number * number);
